@@ -11,6 +11,6 @@ jobs:
       - uses: lyqht/generate-supabase-db-types-github-action@main
         with:
           SUPABASE_REF_ID: ${{ secrets.SUPABASE_REF_ID }}
-          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
           OUTPUT_PATH: common/types/db.ts
