@@ -12,30 +12,36 @@ export interface Database {
       projects: {
         Row: {
           created_at: string
+          description: string | null
           id: number
-          image: string | ''
-          link_demo: string | ''
-          link_github: string | ''
-          slug: string | ''
-          title: string | ''
+          image: string | null
+          link_demo: string | null
+          link_github: string | null
+          slug: string | null
+          stack: string | null
+          title: string | null
         }
         Insert: {
           created_at?: string
+          description?: string | null
           id?: number
-          image?: string | ''
-          link_demo?: string | ''
-          link_github?: string | ''
-          slug?: string | ''
-          title?: string | ''
+          image?: string | null
+          link_demo?: string | null
+          link_github?: string | null
+          slug?: string | null
+          stack?: string | null
+          title?: string | null
         }
         Update: {
           created_at?: string
+          description?: string | null
           id?: number
-          image?: string | ''
-          link_demo?: string | ''
-          link_github?: string | ''
-          slug?: string | ''
-          title?: string | ''
+          image?: string | null
+          link_demo?: string | null
+          link_github?: string | null
+          slug?: string | null
+          stack?: string | null
+          title?: string | null
         }
         Relationships: []
       }

@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "update-types": "npx supabase gen types typescript --project-id \"${SUPABASE_REF_ID}\" > common/types/db.ts"
+    "update-types": "npx supabase gen types typescript --project-id \"ukiiceargkulocdpmxut\" > common/types/db.ts"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
