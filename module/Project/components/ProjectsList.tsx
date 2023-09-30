@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 const ProjectsList = async () => {
     const projects = await getProjects();
     return (
-        <section className="">
+        <section className="grid grid-cols-3 w-1/2 gap-8 mt-8 justify-center items-center">
             {projects.map((project: any) => (
                 <ProjectCard key={project.id} {...project} />
             ))}

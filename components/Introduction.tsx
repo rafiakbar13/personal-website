@@ -20,7 +20,7 @@ const Introduction = () => {
                     </li>
                 </ul>
                 <p className="leading-[1.8] md:leading-[2] text-neutral-800 dark:text-neutral-300 text-sm">
-                    I am a dedicated and experienced <span className="underline decoration-pink-500 decoration-2">Software Engineer</span> with a strong emphasis on <span className="underline decoration-purple-500 decoration-2">Frontend Web Development</span>. Experienced Frontend Developer with 1 year of hands-on experience in HTML, CSS, REACTJS, and JAVASCRIPT. Skilled in developing and deploying web applications using modern technologies. Proven track record of creating intuitive user interfaces that enhance user experience. Applying for the position of Frontend Developer to use my skills to create innovative and responsive web solutions.
+                    I am a dedicated and experienced <span className="underline decoration-pink-500 decoration-2">Software Engineer</span> with a strong emphasis on <span className="underline decoration-purple-500 decoration-2">Frontend Web Development</span>. Experienced Frontend Developer with 1 year of hands-on experience in HTML, CSS, ReactJs, and Javascript. Skilled in developing and deploying web applications using modern technologies. Proven track record of creating intuitive user interfaces that enhance user experience. Applying for the position of Frontend Developer to use my skills to create innovative and responsive web solutions.
                 </p>
             </div>
             <SocialMedia />

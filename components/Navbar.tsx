@@ -20,7 +20,7 @@ const Navbar = () => {
                             {item.name}
                         </Link>
                     ))}
-                    <div className='flex items-center pl-5 border-l-2 gap-x-5'>
+                    <div className='pl-5 border-l-2 gap-x-5'>
                         <ThemeSwitcher />
                     </div>
                 </div>

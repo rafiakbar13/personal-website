@@ -1,5 +1,4 @@
-type stacksProps = {
-    name: string;
-    icon: JSX.Element;
+export type stacksProps = {
+    [key: string]: JSX.Element;
 };
 

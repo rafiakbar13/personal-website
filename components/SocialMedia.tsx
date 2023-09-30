@@ -19,7 +19,6 @@ const SocialMedia = () => {
                                     href={item.path}
                                     className="dark:text-white dark:hover:text-purple-500 transition duration-300"
                                     target="_blank"
-                                    rel="noopener noreferrer"
                                 >
                                     {item.icon}
                                 </Link>
