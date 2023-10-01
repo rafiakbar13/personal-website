@@ -98,12 +98,12 @@
 
 export const SKILLS = [
     'Next.js',
-    'React.js',
+    'React',
     'Jest',
     'Redux',
     'React Query',
-    'Node JS',
-    'Express.js',
+    'Node.js',
+    'Express',
     'TailwindCSS',
     'Bootstrap',
     'ChakraUI',
@@ -115,4 +115,8 @@ export const SKILLS = [
     'HTML',
     'CSS',
     'Git',
+    'React Router',
+    'React Hook Form',
+    'Github',
+    'Framer',
 ];

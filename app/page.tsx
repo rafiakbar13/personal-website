@@ -5,7 +5,6 @@ import About from '@/module/About'
 import Contact from '@/module/Contact/Contact'
 import Project from '@/module/Project'
 import Tech from '@/module/Tech'
-import { SiVite } from 'react-icons/si'
 export default function HomePage() {
 
   return (
@@ -19,6 +18,7 @@ export default function HomePage() {
         <Contact />
       </main>
       <Footer />
+
     </>
   )
 }

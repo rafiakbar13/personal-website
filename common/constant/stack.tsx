@@ -1,4 +1,4 @@
-import { BsFillBootstrapFill } from 'react-icons/bs';
+import { BsFillBootstrapFill, BsStripe } from 'react-icons/bs';
 import { BiLogoMongodb } from 'react-icons/bi';
 import {
     SiChakraui,
@@ -51,5 +51,5 @@ export const STACKS: stacksProps = {
     Jest: <SiJest size={iconSize} className='text-orange-600' />,
     Sass: <SiSass size={iconSize} className='text-pink-600' />,
     Vite: <SiVite size={iconSize} className='text-purple-500' />,
-
+    stripe: <BsStripe size={iconSize} className='text-blue-600' />,
 }

@@ -4,7 +4,7 @@ import Profile from "./profile";
 import { Button } from "./ui/button";
 const Hero = () => {
     return (
-        <section className="mt-20">
+        <section className="my-32">
             <div className="flex flex-col items-center justify-between gap-x-12 md:flex-row-reverse md:px-0">
                 {/* Image */}
                 <Profile />

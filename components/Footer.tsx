@@ -2,35 +2,13 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white py-6">
-            <div className="container mx-auto text-center">
-                <p className="text-lg font-bold">Terima kasih telah mengunjungi situs saya!</p>
-                <p className="mt-2">Ikuti saya di sosial media:</p>
-                <div className="flex justify-center mt-4">
-                    <a
-                        href="https://github.com/rafiakbar13"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mx-2 hover:underline"
-                    >
-                        GitHub
-                    </a>
-                    <a
-                        href="https://www.linkedin.com/in/rafiakbar13/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mx-2 hover:underline"
-                    >
-                        LinkedIn
-                    </a>
-                    <a
-                        href="mailto:rafi@example.com"
-                        className="mx-2 hover:underline"
-                    >
-                        Email
-                    </a>
-                </div>
-            </div>
+        <footer className="flex justify-center items-center h-16 bg-black text-white gap-x-2">
+            <span>©</span>
+            <span>{new Date().getFullYear()}</span>
+            <span>with</span>
+            <span className="text-red-500 animate-pulse">❤</span>
+            <span>by</span>
+            <span className="hover:dark:text-neutral-400 cursor-pointer">Rafi Akbar</span>
         </footer>
     );
 };
