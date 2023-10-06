@@ -14,7 +14,6 @@ import { SiGithub } from 'react-icons/si'
 import { BiLinkExternal } from 'react-icons/bi'
 const ProjectCard = ({ title, slug, id, image, link_demo, link_github, stack, description }: ProjectProps) => {
     const stacksArray = stack.split(',').map((stack) => stack.trim());
-    console.log(stacksArray);
     const trimmedContent = description.substring(0, 50) + '...';
     const [isHovered, setIsHovered] = useState(false);
 

@@ -5,6 +5,7 @@ import {
     BsLinkedin as LinkedinIcon,
     BsMailbox as MailIcon,
 } from 'react-icons/bs';
+import { BiLogoGmail } from 'react-icons/bi';
 
 const iconSize = 20;
 export const MENU: MenuItemsProps[] = [
@@ -14,19 +15,19 @@ export const MENU: MenuItemsProps[] = [
     },
     {
         name: 'About',
-        path: '#about'
+        path: '/about'
     },
     {
         name: 'Skills',
-        path: '#skills'
+        path: '/skills'
     },
     {
         name: 'Projects',
-        path: '#projects'
+        path: '/projects'
     },
     {
         name: 'Contact',
-        path: '#contact'
+        path: '/contact'
     }
 ];
 
@@ -50,6 +51,6 @@ export const SOCIAL_MEDIA: MenuItemsProps[] = [
     {
         name: 'Mail',
         path: 'mailto:muhammadrafia13@gmail.com',
-        icon: <MailIcon size={iconSize} />
+        icon: <BiLogoGmail size={iconSize} />
     }
 ];

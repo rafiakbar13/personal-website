@@ -11,12 +11,12 @@ const SkillCard = ({ skill }: { skill: string }) => {
     <section>
       <TooltipProvider>
         <Tooltip delayDuration={0}>
-          <TooltipTrigger>
-            <span className="dark:text-white dark:hover:text-purple-500 transition duration-300 flex-wrap">
+          <TooltipTrigger className="w-full">
+            <span className="dark:text-white dark:hover:text-purple-500 transition duration-300">
               {STACKS[skill]}
             </span>
           </TooltipTrigger>
-          <TooltipContent sideOffset={5} align="center">
+          <TooltipContent sideOffset={5} align="center" className="">
             {skill}
           </TooltipContent>
         </Tooltip>

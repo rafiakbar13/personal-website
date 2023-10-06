@@ -5,7 +5,7 @@ import Summary from './Summary'
 import Profile from '@/components/profile'
 const About = () => {
     return (
-        <section id='about' className='mt-5'>
+        <section id='about' className='flex flex-col justify-center items-center mt-20'>
             <SectionHeading title='About' icon={<BiSolidBookReader />} />
             <div className='flex flex-col lg:flex-row items-center'>
                 <Profile />

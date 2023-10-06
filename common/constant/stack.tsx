@@ -25,7 +25,7 @@ import {
 } from 'react-icons/si';
 import { stacksProps } from '../types/stack';
 import React from 'react';
-const iconSize = '100%';
+const iconSize = '4rem';
 
 export const STACKS: stacksProps = {
     HTML: <SiHtml5 size={iconSize} className='text-orange-500' />,

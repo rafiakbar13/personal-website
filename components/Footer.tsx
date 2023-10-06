@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="flex justify-center items-center h-16 bg-black text-white gap-x-2">
+        <footer className="h-16 flex justify-center items-center bg-black text-white gap-x-2 w-full bottom-0">
             <span>©</span>
             <span>{new Date().getFullYear()}</span>
             <span>with</span>
